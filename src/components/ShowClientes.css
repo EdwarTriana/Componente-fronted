@@ -1,0 +1,68 @@
+/* ShowClientes.css */
+
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #eaeaea;
+  }
+  
+  .sidebar ul li.active {
+    background-color: #d1e7ff;
+    color: #0056b3;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .main-content h2 {
+    margin-top: 0;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  .form-container input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .form-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

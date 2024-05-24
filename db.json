@@ -1,0 +1,38 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "name": "Carlos",
+      "email": "cliente1@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Andres",
+      "email": "cliente2@example.com"
+    }
+  ],
+  "empleados": [
+    {
+      "id": 1,
+      "name": "Cliente 1",
+      "email": "cliente1@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Cliente 2",
+      "email": "cliente2@example.com"
+    }
+  ],
+  "proveedores": [
+    {
+      "id": 1,
+      "name": "Cliente 1",
+      "email": "cliente1@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Cliente 2",
+      "email": "cliente2@example.com"
+    }
+  ]
+}
